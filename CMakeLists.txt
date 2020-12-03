@@ -49,7 +49,7 @@ add_executable(tests
 target_link_libraries(tests gtest_main parser_printer)
 
 
-target_link_libraries(main PUBLIC parser_printer)
+# target_link_libraries(main PUBLIC parser_printer)
 
 
 
